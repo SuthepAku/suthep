@@ -3,7 +3,7 @@ from discord.ext import commands
 from discord import app_commands
 from myserver import server_on
 
-TOKEN = 'MTI1NjU2OTEwNDIzMjYxMTg1MA.GKsRMA.EnHrL4R3M6iuO_eP19KG9vrKvlrBrpnRX4Yi2c'  # แทนที่ด้วยโทเค็นจริงของ Discord bot
+
 
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix='*', intents=intents)
