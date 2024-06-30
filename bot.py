@@ -102,4 +102,4 @@ async def on_message(message):
     await client.process_commands(message)
 server_on
 
-client.run(TOKEN)
+client.run(os.getenv('TOKEN'))
